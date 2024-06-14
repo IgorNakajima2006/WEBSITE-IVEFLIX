@@ -7,7 +7,7 @@ import profile_img from '../../assets/profile_img.png'
 import caret_icon from '../../assets/caret_icon.svg'
 
 const Navbar = () => {
-  const navref = useRef();
+  const navRef = useRef();
   useEffect(()=>{
     window.addEventListener('scroll', ()=>{
       if(window.screenY >= 80){
